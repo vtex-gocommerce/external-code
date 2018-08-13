@@ -14,38 +14,38 @@ interface ExternalCodeProps {
 class ExternalCode extends React.Component<ExternalCodeProps, any> {
   static displayName = 'External Code'
   static schema = {
-    title: 'External Code',
-    description: 'External Code',
+    title: 'editor.externalCode.title',
+    description: 'editor.externalCode.description',
     type: 'object',
     properties: {
       stylesheet: {
-        title: 'Style Sheet',
+        title: 'editor.externalCode.css.title',
         type: 'array',
         minItems: 1,
         maxItems: 10,
         items: {
-          title: 'CSS',
+          title: 'editor.externalCode.css.title',
           type: 'object',
           properties: {
             url: {
               type: 'string',
-              title: 'URL',
+              title: 'editor.externalCode.url.title',
             },
           },
         },
       },
       javascript: {
-        title: 'Javascript',
+        title: 'editor.externalCode.js.title',
         type: 'array',
         minItems: 1,
         maxItems: 10,
         items: {
-          title: 'JS',
+          title: 'editor.externalCode.js.title',
           type: 'object',
           properties: {
             url: {
               type: 'string',
-              title: 'URL',
+              title: 'editor.externalCode.url.title',
             },
           },
         },
