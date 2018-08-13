@@ -1,0 +1,7 @@
+{
+  "extensions": {
+    "store/additionalComponent": {
+      "component": "ExternalCode"
+    }
+  }
+}

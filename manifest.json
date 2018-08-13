@@ -1,0 +1,24 @@
+{
+  "vendor": "gocommerce",
+  "name": "external-code",
+  "version": "0.0.1",
+  "title": "External Code",
+  "defaultLocale": "pt-BR",
+  "description": "Load external code into store",
+  "builders": {
+    "pages": "0.x",
+    "react": "2.x"
+  },
+  "mustUpdateAt": "2019-04-02",
+  "categories": [],
+  "registries": [
+    "smartcheckout",
+    "gocommerce"
+  ],
+  "settingsSchema": {},
+  "scripts": {
+    "postreleasy": "vtex publish --verbose"
+  },
+  "dependencies": {
+  }
+}
